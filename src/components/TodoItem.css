@@ -1,0 +1,74 @@
+.TodoItem {
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+  padding: 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    
+    
+  }
+
+  .TodoItem:hover{
+    background-color: #fdfdfd;
+    box-shadow: 0px 5px 12px rgba(81, 89, 105, 0.15);
+  }
+  
+  .TodoItem-p {
+    
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .wrapIcon{
+    display: flex;
+    align-items: center;
+  }
+
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+  
+
+  .fas {
+    color: #2e2e2e;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 16px;
+    font-weight: bold;
+    /* background-color: #CCC; */
+  }
+
+  .fa-check{
+  
+    width: 24px;
+    height: 24px;
+    /* position: absolute;
+    left: 12px; */
+  }
+
+  .fa-check:hover{
+    color: #4caf99;
+  }
+
+  .fa-check--active{
+    color: #4caf99;
+  }
+
+  
+  .fa-trash{
+    width: 32px;
+    height: 32px;
+  }
+
+  .fa-trash:hover {
+    color: #ed6755;
+  }

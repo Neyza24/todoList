@@ -1,0 +1,41 @@
+.CreateTodoButton {
+  z-index: 1;
+    background-color: #8f80e2;
+    box-shadow: 0px 4px 12px #616bfa80;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 36px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+
+  }
+  
+
+
+  @media screen and (min-width: 480px) {
+    .CreateTodoButton {
+    bottom: 24px;
+    right: 32px;
+
+    height: 60px;
+    width: 60px;
+    }
+
+
+    .CreateTodoButton:hover {
+      background-color: #5d4dee;
+      height: 61px;
+      width: 61px;
+    }
+  }
+
+
